@@ -14,8 +14,23 @@ setup(
     author_email='deepak.agarwal@opusconsulting.com',
     description=('This document provides the release details of the Python SDK for Paysafe API' ),
     license='Opus Consulting Solutions Pvt. Ltd.',
-    packages=["utils","bin","PythonPaysafeSDK","PythonPaysafeSDK/CardPayments","PythonPaysafeSDK/CustomerVault","PythonPaysafeSDK/common", "PythonPaysafeSDK/DirectDebit", "PythonPaysafeSDK/ThreeDSecure"],
+    packages=[
+        "utils",
+        "bin",
+        "PythonPaysafeSDK",
+        "PythonPaysafeSDK/CardPayments",
+        "PythonPaysafeSDK/CustomerVault",
+        "PythonPaysafeSDK/common",
+        "PythonPaysafeSDK/DirectDebit",
+        "PythonPaysafeSDK/ThreeDSecure",
+        "PythonPaysafeSDK/ThreeDSecureV2"
+    ],
     include_package_data=True,
     zip_safe=False,
-    py_modules = ['PythonPaysafeSDK','HTMLTestRunner','bin','utils'],     
+    py_modules=[
+        'PythonPaysafeSDK',
+        'HTMLTestRunner',
+        'bin',
+        'utils'
+    ],     
 )
